@@ -1,0 +1,17 @@
+body {
+    background-color: skyblue;
+}
+
+h1 {
+    color: palevioletred;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    font-family: courier;
+    text-align: center;
+}
