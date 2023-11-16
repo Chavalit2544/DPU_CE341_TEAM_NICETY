@@ -1,18 +1,42 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <script src="test.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="test.css">
+
 </head>
 <body>
-    <section>
-        <div class="Profile">
-            <button class="border1">Profile of Team</button> <br>
-            <button class="border2"> IP (APL) </button> <br>    
-            <button class="border3"> BACK </button> <br>   
-        </div>             
-    </section>  
+    <div class="box">
+        <a href="#popup-box"> 
+            <button type="button">แสดงรูปภาพสมาชิก !!</button>
+        </a>
+        <a href="#popup-box2"> 
+            <button type="button">แสดง IP !!</button>
+        </a>
+        <a href="#popup-box3"> 
+            <button type="button">ย้อนกลับ !!</button>
+        </a>
+    </div>
+
+    <div id="popup-box" class="modal">
+        <div class="content">
+            <img src="PA.jpg" class="center"> <br>
+            <img src="SA.jpg" class="center"> <br>
+            <img src="NI.jpg" class="center"> <br>
+            <img src="PP.jpg" class="center"> <br>
+            <a href="#" class="box-close">×</a>
+        </div>
+    </div>
+
+    <div id="popup-box2" class="modal">
+        <div class="content">
+            <p id="ip-address"></p>
+            <a href="#" class="box-close">×</a>
+        </div>
+    </div>
+    
 </body>
 </html>
