@@ -5,9 +5,11 @@ body{
     text-align: center;
 }
 .border{
+    margin: auto;
     border: 5px solid red;
     border-radius: 12px;
     padding: 5px;
+    width: 700px;
 }
 a:link, a:visited {
     background-color: #f44336;
