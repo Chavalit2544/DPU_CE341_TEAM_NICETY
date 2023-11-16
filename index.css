@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(#FF9999,);
+    background-color: darkgray;
 }
 .p{
     text-align: center;
@@ -14,11 +14,12 @@ body{
 a:link, a:visited {
     background-color: darkgray;
     color: black;
-    padding: 14px 25px;
+    border: 3px solid black;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-}
+  }
   
 a:hover, a:active {
     background-color: #f44336;
