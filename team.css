@@ -1,18 +1,34 @@
 body {
     background-image: url('https://i.pinimg.com/564x/2b/ae/97/2bae97a9423b958577274993864aa400.jpg');
+    background-size: cover;
+    padding: 100px;
+    margin: 150px;
 }
 
 h1 {
-    color: rgb(255, 141, 179);
-    font-family: courier;
+    color: rgb(130, 9, 59);
+    font-family: verdana;
     text-align: center;
+    font-size: 200%;
 }
 
 h2 {
-    color: rgb(247, 130, 107);
+    color: rgb(112, 23, 175);
 }
 
 p {
     font-family: courier;
     text-align: center;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: red;
 }
