@@ -29,7 +29,7 @@ p {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 0, 0, 0.7);
+    background-color: black;
     transition: all 0.4s;
     visibility: hidden;
     opacity: 0;
