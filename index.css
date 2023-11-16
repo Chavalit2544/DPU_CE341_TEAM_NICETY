@@ -12,8 +12,8 @@ body{
     width: 700px;
 }
 a:link, a:visited {
-    background-color: #f44336;
-    color: white;
+    background-color: black;
+    color: red;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -21,6 +21,6 @@ a:link, a:visited {
 }
   
 a:hover, a:active {
-    background-color: red;
+    background-color: white;
 }
 
