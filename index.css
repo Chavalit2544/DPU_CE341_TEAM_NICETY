@@ -1,17 +1,19 @@
 body{
-    background-color: darkgray;
+    background-image: linear-gradient(#FF9999,);
 }
 .p{
     text-align: center;
 }
 .border{
+    margin: auto;
     border: 5px solid red;
     border-radius: 12px;
     padding: 5px;
+    width: 700px;
 }
 a:link, a:visited {
-    background-color: #f44336;
-    color: white;
+    background-color: darkgray;
+    color: black;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -19,6 +21,7 @@ a:link, a:visited {
 }
   
 a:hover, a:active {
-    background-color: red;
+    background-color: #f44336;
+    color: white;
 }
 
