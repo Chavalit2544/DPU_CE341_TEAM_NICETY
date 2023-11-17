@@ -1,11 +1,12 @@
 .box {
     background-image: url(https://www.gbtech.co.th/wp-content/uploads/2019/02/NEWS-KNOWL-1.jpg);
-    min-height: 200vh;
+    height: 200vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
     background-position: center;
+    opacity: 0.8;
 }
 
 
