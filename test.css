@@ -1,69 +1,68 @@
-.box {
-    background-image: url(https://www.gbtech.co.th/wp-content/uploads/2019/02/NEWS-KNOWL-1.jpg);
-    height: 200vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-}
-
-
-p {
-    font-size: 17px;
-    align-items: center;
-}
-
-.box a {
-    display: inline-block;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201028/pngtree-hand-painted-watercolor-rainbow-background-image_440449.jpg);
-    padding: 20px;
-    border-radius: 10px;
-}
-
 .modal {
-    align-items: center;
-    display: flex;
-    justify-content: center; 
-    position:relative;
-    top: 0;
-    bottom: 0;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
     left: 0;
-    right: 0;
-    background-color: black;
-    transition: all 0.4s;
-    visibility: hidden;
-    opacity: 0;
-}
-
-.content {
-    position: absolute;
-    background: rgb(255, 255, 255);
-    width: 100px;
-    padding: 3em 3em;
-    border-radius: 4px;
-    
-  
-} 
-
-.modal:target {
-    visibility: visible;
-    opacity: 1;
-}
-
-.box-close {
-    position: absolute;
     top: 0;
-    color: rgb(255, 255, 255);
-    text-decoration:underline;
-    font-size: 50px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    /* background: linear-gradient(to left , red,blue); */
+    /* background: red; */
+    -webkit-animation: anim 5s infinite linear;
+    animation: anim 5s ease linear;
+    font-size: 130%;
+    border: 10px solid ;
+    background-image: url(020121_0303_61.jpg);  
     
+    background-size: cover;
+}
+a {
+    margin-top: 60px;
+    margin-left:115px;
+       
+}
+
+h1 {
+    color:#ff0000;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #ffffff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 30px;
+    border: 5px solid rgb(160, 160, 160);
+    width: 63%; /* Could be more or less, depending on screen size */
+    height: 40%;
+    border-radius: 20px;
+}
+
+.close {
+    color: rgb(0, 0, 0);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,.close:focus {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+.img-show{
+    width: 220px;
+    height: 250px;
 }

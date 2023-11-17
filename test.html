@@ -2,46 +2,40 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="test.css">
-    <script src="test.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Test JavaScript</title>
+    <link rel="stylesheet" href="/test.css">
 </head>
-<section>
 
-    <body class="box">
-        <div>
-            <a href="#popup-box">
-                <button type="button">แสดงรูปภาพสมาชิก !!</button>
-            </a>
-            <a href="#popup-box2">
-                <button type="button">แสดง IP !!</button>
-            </a>
-            <a href="index.html">
-                <button type="button">ย้อนกลับ !!</button>
-            </a>
+<body>
+    <p><h1>TEAM NICETY</h1></p>
+    <button id="myBtn">แสดงรูปภาพ</button> <br>
+    <button id="myBtnIp">แสดง IP </button><br>
+    
+    <a href="index.html">
+        <button type="button">ย้อนกลับ</button>
+    </a> 
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img class="img-show" src="/PA.jpg">
+            <img class="img-show" src="/SA.jpg">
+            <img class="img-show" src="/NI.jpg">
+            <img class="img-show" src="/PP.jpg">
         </div>
-
-        <div id="popup-box" class="modal">
-            <div><br><br><br>
-                <img src="PA.jpg" width="200px"> <br>
-                <img src="SA.jpg" width="200px"> <br>
-                <img src="NI.jpg" width="200px"> <br>
-                <img src="PP.jpg" width="200px"> <br>
-                <a href="#" class="box-close"></a>
-            </div>
+    </div>
+    
+    <div id="popup-box2" class="modal1">
+        <div class="content">
+            <p id="ip-address"></p>
         </div>
+    </div>
 
-        <div id="popup-box2" class="modal">
-            <div class="content">
-                <p id="ip-address"></p>
-                <a href="#" class="box-close"></a>
-            </div>
-        </div>
-
-    </body>
-</section>
+    <script src="/test.js"></script>
+</body>
 
 </html>
